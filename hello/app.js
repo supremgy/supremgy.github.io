@@ -15,7 +15,6 @@ class App {
       fontactive: () => {
         this.visual = new Visual();
         window.addEventListener('click', this.resize.bind(this));
-        window.addEventListener('touchstart', this.resize.bind(this));
         // window.addEventListener('resize', this.resize.bind(this), false);
         this.resize;
 
