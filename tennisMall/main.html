@@ -5,10 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tennis Market</title>
+    <style>
+      .intro {
+        text-align: center;
+      }
+      .products {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+      }
+      img {
+        width: 300px;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <h1>Tennis Market</h1>
+    <div class="intro">
+      <h1 style="margin: 2em">Tennis Market</h1>
+      <p style="margin: 3em">
+        Welcome To Tennis Market!! <br />
+        Please Enjoy Your Shopping!!
+      </p>
+      <h3>
+        <a href="./orderList.html">Order List</a>
+      </h3>
+    </div>
+
+    <div class="products">
+      <div>
+        <img src="./img/redRacket.png" alt="" />
+        <p>Red Racket</p>
+        <input type="button" value="order" onclick='alert("order success!")' />
+      </div>
+      <div>
+        <img src="./img/blueRacket.png" alt="" />
+        <p>Blue Racket</p>
+        <input type="button" value="order" onclick='alert("order success!")' />
+      </div>
+      <div>
+        <img src="./img/blackRacket.png" alt="" />
+        <p>Black Racket</p>
+        <input type="button" value="order" onclick='alert("order success!")' />
+      </div>
     </div>
   </body>
 </html>
